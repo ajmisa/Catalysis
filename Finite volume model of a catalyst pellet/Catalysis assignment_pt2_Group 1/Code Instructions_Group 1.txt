@@ -1,0 +1,57 @@
+# Instructions for Running the Codes
+
+## Question 1 (C_pt2_Q1.py):
+To generate graphs for Question 1, execute the `C_pt2_Q1.py` script. This script automatically generates all required graphs for Question 1.
+
+```bash
+python C_pt2_Q1.py
+```
+
+## Question 2 (C_pt2_Q2.py):
+To generate graphs for Question 2, execute the `C_pt2_Q2.py` script. This will produce all the necessary plots for Question 2.
+
+```bash
+python C_pt2_Q2.py
+```
+
+## Question 3:
+### Step-by-Step Execution
+1. **Start with C_pt2_Q3_system.py:**
+   - This script generates the first graph in the report for Question 3.
+   - Run the script as follows:
+     ```bash
+     python C_pt2_Q3_system.py
+     ```
+
+2. **Run C_pt2_Q3_excessive.py:**
+   - This script is used to generate additional graphs by varying the `ca0` parameter.
+   - Modify the `ca0` value in line 18 to 0.01, 0.1, and 1 sequentially, and rerun the script for each value to replicate the graphs in the report.
+   - Example of changing `ca0`:
+     ```python
+     ca0 = 0.01  # Change this line for each value
+     ```
+   - Execute the script:
+     ```bash
+     python C_pt2_Q3_excessive.py
+     ```
+
+3. **Run C_pt2_Q3_ca0_values_vs_errors.py:**
+   - This script generates the next graph in the report, analyzing errors for different `ca0` values.
+   - Execute the script:
+     ```bash
+     python C_pt2_Q3_ca0_values_vs_errors.py
+     ```
+
+4. **Run C_pt2_Q3_kvalues.py:**
+   - This script generates graphs for varying `k` values.
+   - Execute the script:
+     ```bash
+     python C_pt2_Q3_kvalues.py
+     ```
+
+5. **Run C_pt2_Q3_R_vs_errors.py:**
+   - This script produces the final graphs for Question 3, analyzing errors versus `R` values.
+   - Execute the script:
+     ```bash
+     python C_pt2_Q3_R_vs_errors.py
+     
