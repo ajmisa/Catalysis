@@ -1,45 +1,27 @@
 # Catalysis Projects Repository
 
-This repository contains academic and research-driven projects focused on **catalytic science and reaction engineering**. Each project explores a specific topic in heterogeneous catalysis, often combining experimental data with kinetic modeling or molecular-level simulations.
-
-These projects were developed during the *Catalysis, Science and Technology (6CPT20)* course at **Eindhoven University of Technology**, and are structured to reflect best practices in kinetic analysis, microkinetic modeling, and mechanistic validation.
+This repository contains a collection of academic projects focused on catalysis, developed as part of the Catalysis, Science and Technology (6CPT20) course at Eindhoven University of Technology. Each project focuses on a different aspect of catalytic reaction analysis, ranging from kinetic fitting to microkinetic modeling.
 
 ## Projects Included
 
 ### 1. Kinetics of a Heterogeneously Catalyzed Reaction (Part 1)
-A detailed kinetic analysis of an industrial CO₂ + H₂ reaction over a solid catalyst. Focused on determining rate expressions, reaction orders, and mechanistic consistency based on experimental batch data.
+A kinetic analysis of an industrial catalytic reaction based on batch experimental data. The project includes model fitting, determination of reaction orders, activation energy estimation, and mechanistic validation using Langmuir-Hinshelwood theory.
 
-- Topics: Kinetic fitting, Arrhenius plots, Langmuir-Hinshelwood modeling
-- [View Project](https://ajmisa.github.io/catalysis.html#part1)
+### 2. Microkinetic Modeling (Part 2)
+This project involves the construction of a microkinetic model based on elementary steps and includes derivation of rate expressions under quasi-equilibrium and steady-state assumptions. The effects of surface coverages, temperature, and pressure are explored.
 
-### 2. Microkinetic Modeling (Planned/Upcoming)
-This project will introduce elementary reaction steps into a microkinetic model for surface-mediated catalysis. It will simulate reaction rate dependencies and explore the effect of coverage and temperature on activity.
+### 3. Catalyst Design Case Study
+A conceptual case study focused on selecting or designing a catalyst for a given industrial reaction. It considers factors such as activity, selectivity, stability, and practical feasibility.
 
-- Topics: Elementary step modeling, quasi-equilibrium, rate-determining step analysis
-- [Coming Soon](https://ajmisa.github.io/catalysis.html#microkinetics)
+## Repository Structure
 
-### 3. Catalyst Design Case Study (Planned/Upcoming)
-A conceptual design project aimed at developing a catalyst for a specific industrial application. The study considers not only kinetics but also catalyst material properties and support selection.
-
-- Topics: Catalyst screening, material properties, industrial applicability
-- [Coming Soon](https://ajmisa.github.io/catalysis.html#design)
-
-## Structure
-
-Each project folder contains:
-- A detailed `README.md` with methodology and results
-- Final reports in PDF format
-- Python or MATLAB scripts (if applicable)
-- Experimental datasets (if available)
+Each project is contained in its own folder and includes:
+- A project-specific `README.md`
+- Final report in PDF format
+- Supplementary scripts or data (if applicable)
 
 ## Author
 
 Adam Jordani Misa  
 MSc Chemical Engineering – TU/e  
 Email: aj.misa@outlook.com  
-Portfolio: [ajmisa.github.io](https://ajmisa.github.io)  
-LinkedIn: [linkedin.com/in/adam-misa](https://www.linkedin.com/in/adam-misa)
-
----
-
-For any questions or academic collaboration inquiries, feel free to reach out.
