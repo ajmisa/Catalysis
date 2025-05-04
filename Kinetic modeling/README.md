@@ -41,19 +41,4 @@ The proposed mechanism includes:
 
 The resulting rate law accounts for partial pressures and surface coverage effects.
 
-## Files Included
 
-- `Catalysis_assignment_Part_1.pdf` – Full report with derivations, figures, and residual analysis
-- `6CPT20_assignment_part_1.pdf` – Assignment instructions and objectives
-
-## Course Information
-
-Catalysis, Science and Technology – 6CPT20  
-Eindhoven University of Technology  
-Q2 2024
-
-## Contributors
-
-- Adam Jordani Misa (2208512)
-- Artemis Angelopoulou (2192977)
-Tutor: Emiel Hensen
