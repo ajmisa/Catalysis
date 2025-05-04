@@ -1,65 +1,59 @@
 # Kinetics of a Heterogeneously Catalyzed Reaction – Part 1
 
-This project investigates the kinetics of a heterogeneously catalyzed industrial reaction, focusing on kinetic model development, parameter fitting, and reaction mechanism identification. The work is part of the 6CPT20 course: Catalysis, Science and Technology (Q2 2024) at Eindhoven University of Technology.
+This project analyzes the kinetics of a heterogeneously catalyzed gas-phase reaction involving CO₂ and H₂ using batch experimental data. The work focuses on fitting kinetic parameters, assessing model quality, and deriving a plausible reaction mechanism consistent with the experimental findings.
 
-## Objective
+## Objectives
 
-To analyze batch reactor experimental data for CO₂ and H₂ reacting over a solid catalyst. The aim is to:
-- Determine kinetic parameters (rate constant, activation energy, reaction orders)
-- Assess model fit quality through residual analysis
-- Propose and validate a plausible reaction mechanism
+- Determine key kinetic parameters:
+  - Rate prefactor (k₀)
+  - Activation energy (Eₐ)
+  - Reaction orders in CO₂ and H₂
+- Assess the quality of the kinetic fit using residual analysis
+- Propose an overall reaction mechanism with elementary steps and a rate-determining step
 
-## Key Results
+## Summary of Results
 
-- **Rate law model**: Power-law form  
-- **Reaction orders**:  
-  - \( n_{\mathrm{H_2}} = 1.389 \)  
-  - \( m_{\mathrm{CO_2}} = 0.829 \)
-- **Activation energy**: 41.8 kJ/mol  
-- **Rate constant**: \( k_0 = 1974.36 \)
-- **Model quality**:  
-  - R² = 0.993  
-  - Residuals show good random distribution under kinetically controlled conditions
+- Best-fit kinetic parameters (Region I: kinetically controlled):
+  - Activation energy: 41.8 kJ/mol
+  - Reaction order in H₂: 1.389
+  - Reaction order in CO₂: 0.829
+  - R² = 0.993 (excellent fit)
+- Mechanistic analysis supports methanol synthesis via stepwise hydrogenation of CO₂
+- Analytical derivation of rate laws matches experimental orders, confirming consistency
 
 ## Methodology
 
-- Fitting performed using:
-  - Linearized Arrhenius plots
-  - Mean squared error (MSE) minimization on \( r \) and \( \ln(r) \)
-- Distinction made between kinetically controlled and mass-transfer-limited regimes
-- Surface coverage and Langmuir-Hinshelwood kinetics used to derive analytical expressions for rate
+- Arrhenius plots constructed using three data-fitting procedures:
+  - Full temperature range
+  - Restricted range to isolate kinetically controlled regime
+  - Log-transformed rate fitting for enhanced uniformity
+- Residual plots used to verify model quality
+- Rate expressions derived using Langmuir-Hinshelwood surface kinetics
+- Reaction orders confirmed through analytical differentiation of the derived rate expression
 
-## Proposed Mechanism
+## Reaction Mechanism
 
-- Based on methanol synthesis:
-  - Stepwise hydrogenation of adsorbed CO₂ species
-  - Langmuir-Hinshelwood type adsorption
-  - RDS: hydrogenation of H₂COO* to form methanol intermediate
-- Derived rate expression:
-  \[
-  r = k_r \cdot \frac{K_{\mathrm{CO_2}} K_{\mathrm{H_2}}^3 P_{\mathrm{CO_2}} P_{\mathrm{H_2}}^{3/2}}{(1 + K_{\mathrm{CO_2}} P_{\mathrm{CO_2}} + K_{\mathrm{H_2}} P_{\mathrm{H_2}}^{1/2})^4}
-  \]
+The proposed mechanism includes:
+- Adsorption of CO₂ and H₂
+- Sequential hydrogenation to intermediates (e.g., HCOO*, H₂COO*)
+- Formation and desorption of methanol and water
+- Rate-determining step: H₂COO* + H* → H₃CO* + O*
 
-## Reaction Order Ranges (Analytical)
-
-- Hydrogen: \( n_{\mathrm{H_2}} \in [-0.5, 1.5] \)
-- CO₂: \( m_{\mathrm{CO_2}} \in [-3, 1] \)
-
-The experimentally fitted orders fall within these bounds, confirming the model’s consistency.
+The resulting rate law accounts for partial pressures and surface coverage effects.
 
 ## Files Included
 
-- `Catalysis_assignment_Part_1.pdf`: Report containing full analysis, model derivations, and figures
-- `6CPT20_assignment_part_1.pdf`: Assignment description and requirements
+- `Catalysis_assignment_Part_1.pdf` – Full report with derivations, figures, and residual analysis
+- `6CPT20_assignment_part_1.pdf` – Assignment instructions and objectives
 
-## Authors
+## Course Information
 
-- Adam Jordani Misa (2208512)  
-- Artemis Angelopoulou (2192977)  
-Tutor: Emiel Hensen
-
-## Course Info
-
-6CPT20 – Catalysis, Science and Technology  
+Catalysis, Science and Technology – 6CPT20  
 Eindhoven University of Technology  
 Q2 2024
+
+## Contributors
+
+- Adam Jordani Misa (2208512)
+- Artemis Angelopoulou (2192977)
+Tutor: Emiel Hensen
